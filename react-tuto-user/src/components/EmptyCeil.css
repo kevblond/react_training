@@ -1,0 +1,21 @@
+.empty-ceil{
+    border-radius: 10px;
+    background: #D3E0F0;
+    margin: 10px;
+    height: 100px;
+    width: 220px;
+    box-sizing: border-box;
+    position: relative;
+}
+.empty-ceil button{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-color: transparent;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+}
+.ceil-logo-add{
+    height: 60px;
+}

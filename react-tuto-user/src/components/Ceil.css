@@ -1,0 +1,43 @@
+.first-line-ceil .ceil-logo{
+    float: left;
+    height: 30px;
+    margin: 8px;
+}
+
+.first-line-ceil{
+    display: flex;
+    flex-direction: row;
+}
+
+.first-line-ceil p{
+    font-size: large;
+    margin: 8px 0 12px 5px;
+    max-height: calc(1.40em * 2);
+    line-height: 1.40em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.second-line-ceil p{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0 8px 8px 0;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: small;
+    text-overflow: ellipsis;
+}
+
+.ceil{
+    border-radius: 10px;
+    background: #86AAC2;
+    margin: 10px;
+    box-sizing: border-box;
+    color: white;
+    padding:10px;
+    height: 100px;
+    width: 220px;
+    position: relative;
+}

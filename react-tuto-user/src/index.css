@@ -1,0 +1,8 @@
+body {
+  font-family: sans-serif;
+  background: #EFF5FF;
+}
+#root {
+  display:flex;
+  justify-content: center;
+}
